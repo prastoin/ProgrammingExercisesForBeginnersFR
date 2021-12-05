@@ -18,11 +18,18 @@ Ce type de programme a pour but d'afficher dans la console la phrase `Hello Worl
 
 ## Consignes:
 
-1. Utiliser le paquet [cat](http://manpagesfr.free.fr/man/man1/cat.1.html) pour afficher le contenu du fichier `main.c` dans la console
-2. Trouver un moyen pour **compiler** le fichier `main.c` grace a `gcc` ( [GNU Compiler Collection](https://gcc.gnu.org/) )
-3. Apres compilation combien de fichier se trouve dans le dossier `ex01` ?
-   Pourquoi ?
-4. Trouver un moyen d'**executer** le fichier `a.out`
+1. Ouvrir une console dans visual studio code grace au racourci clavier **CTRL + \`** ou via l'onget Terminal -> ouvrir un nouveau terminal.
+2. Utiliser la commande qui permet de se deplacer entre dossiers pour aller dans le dossier `ex01`
+3. Ouvrir le fichier `main.c` avec visual studio code via l'explorateur de fichier visual studio code
+4. Utiliser la commande [cat](http://manpagesfr.free.fr/man/man1/cat.1.html) pour afficher le contenu du fichier `main.c` dans la console
+5. Trouver un moyen de **compiler** le fichier `main.c` grace a `gcc` ( [GNU Compiler Collection](https://gcc.gnu.org/) )
+6. Apres compilation combien de fichier se trouve dans le dossier `ex01` ?
+7. Trouver un moyen d'**executer** le fichier `a.out`
+8. Que se passe t-il ?
+9. Utiliser la commande [cat](http://manpagesfr.free.fr/man/man1/cat.1.html) pour afficher le contenu du fichier `a.out` dans la console.
+10. Qu'en penses tu ? Arrives tu a lire quelque chose ?
+11. Et oui le compilateur a transformer le fichier en langage C `main.c` en fichier binaire<br/> Illustration [ici](https://yard.onl/sitelycee/cours/c/lib/NouvelElement105.jpg)<br/>
+12. Qu'est ce que le binaire, dans les grandes lignes ?
 
 Bonus:
 
@@ -38,3 +45,9 @@ Bonus:
   <summary>Indice Etape 2 a 4 </summary>
     <a href="https://www.youtube.com/watch?v=M04I-RPhYwQ">Video tutoriel</a>
 </details>
+
+### Conclusion:
+
+Dans un premier temps le fichier est fait pour etre comprehensible par un humain, le compilateur lui le rend lisible pour la machine en le compilant en binaire un langage des plus proche de la machine. Ce qui lui permet de l'executer.<br/>
+Quand tu telecharges un jeu video, tu telecharges un ensemble de fichier binaire deja compiles, que seul la machine peut comprendre.<br/>
+Si ce n'etait pas le cas le code serait lisible par un humain et le jeu s'exposerait a de gros problemes de securite et d'abus <br/>
