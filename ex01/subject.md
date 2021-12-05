@@ -16,11 +16,11 @@ Liste des fichiers presents:
 Dans le fichier `main.c` se trouve un programme tres connu appelle `Hello World !`</br>
 Ce type de programme a pour but d'afficher dans la console la phrase `Hello World !`
 
-## Questions:
+## Consignes:
 
 1. Utiliser le paquet [cat](http://manpagesfr.free.fr/man/man1/cat.1.html) pour afficher le contenu du fichier `main.c` dans la console
 2. Trouver un moyen pour **compiler** le fichier `main.c` grace a `gcc` ( [GNU Compiler Collection](https://gcc.gnu.org/) )
-3. Apres compilation combien de fichier se trouve dans le dossier `ex00` ?
+3. Apres compilation combien de fichier se trouve dans le dossier `ex01` ?
    Pourquoi ?
 4. Trouver un moyen d'**executer** le fichier `a.out`
 
