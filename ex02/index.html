@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .imageClass {
+        margin-bottom: 12px;
+    }
+
+    #mainButton {
+        /* Could also be 'red' 'gold' 'silver' and many more !*/
+        background: rgb(255, 79, 111);
+        color: white;
+        font-size: 1rem;
+        border: none;
+        padding: 20px;
+        border-radius: 10px;
+        cursor: pointer
+    }
+
+    #mainButton:hover,
+    #mainButton:focus {
+        background: rgb(45, 198, 178);
+    }
+
+    #mainButton:focus {
+        outline: 1px solid #fff;
+        outline-offset: -4px;
+    }
+
+    #mainButton:active {
+        transform: scale(0.99);
+    }
+</style>
+
+<head>
+    <title>Your web page !</title>
+</head>
+
+<body>
+    <img class="imageClass" src="https://www.youzd.fr/static/media/logo.055d630e.svg" alt="youzd logo">
+    <button id="mainButton">
+        Click me
+    </button>
+</body>
+
+</html>
+
+<script>
+    document.getElementById('mainButton').onclick = function () {
+        alert("button was clicked");
+    };
+</script>

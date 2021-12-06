@@ -1,0 +1,12 @@
+{
+  "name": "ex02",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.27.7"
+  },
+  "scripts": {
+    "watch": "browser-sync start --server --files \"*.css,*.js,*.html\""
+  }
+}
