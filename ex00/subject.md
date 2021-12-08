@@ -1,6 +1,6 @@
-# Aaaah mais enfait ca marche comme ca !
+# Aaaah mais en fait ca marche comme ca !
 
-Cette serie de questions/exercices aborde plusieurs sujets clefs:
+Cette série de questions/exercices aborde plusieurs sujets clefs:
 
 - Premier pas sur Mac ou Linux
 - Qu'est ce qu'une console ou un terminal
@@ -9,23 +9,23 @@ Cette serie de questions/exercices aborde plusieurs sujets clefs:
 
 ## Welcome to Unix
 
-En principe tu utilises un ordinateur base sur [Unix](https://fr.wikipedia.org/wiki/Unix), probablement soit un `Mac` ( apple ) ou un `Linux` ( open source )
+En principe tu utilises un ordinateur base sur <a target="_blank" href="https://fr.wikipedia.org/wiki/Unix">Unix</a>, probablement soit un `Mac` ( apple ) ou un `Linux` ( open source )
 
 Pas de panique</br>
-Il est normal que tu retrouves difficilement tes reperes d'utilisateur window, ici est tout le but de l'exercice.
+Il est normal que tu retrouves difficilement tes repères d'utilisateur window, ici est tout le but de l'exercice.
 
 ## Consignes
 
 ### 1) Interface graphique
 
-1. Grace a l'explorateur de fichier visual studio code, creer un nouveau dossier appelle `interfaceGraphiqueDossier` dans le dossier `ex00`
-2. Dans ce dossier creer un fichier appelle `interfaceGraphiqueFichier`
+1. Grace a l'explorateur de fichier visual studio code, créer un nouveau dossier appelle `interfaceGraphiqueDossier` dans le dossier `ex00`
+2. Dans ce dossier créer un fichier appelle `interfaceGraphiqueFichier`
 
 ### 2) Console
 
 1. Se documenter sur ce qu'est une console aussi appelle terminal
-2. Ouvrir une console dans visual studio code grace au racourci clavier **CTRL + \`** ou via l'onget Terminal -> ouvrir un nouveau terminal.
-3. Une console te permet de soumettre des commandes a ton ordinateur. Par exemple `ls` te permet de lister les fichiers du dossier dans lequel le terminal se situe actuellement<br/>
+1. Ouvrir une console dans visual studio code grace au raccourci clavier `CTRL` et <code>\`</code> ou via l'onglet `Terminal` -> `ouvrir un nouveau terminal`.
+1. Une console te permet de soumettre des commandes a ton ordinateur. Par exemple `ls` te permet de lister les fichiers du dossier dans lequel le terminal se situe actuellement<br/>
    Rentre dans le terminal la commande suivante `ls` et appuie sur entree
    Tu devrais voir dans la console les dossiers
 
@@ -33,10 +33,10 @@ Il est normal que tu retrouves difficilement tes reperes d'utilisateur window, i
 - `ex01` etc etc
   Et le fichier `README.md`
 
-3. Chercher sur internet une commande qui permet de se deplacer de dossier a dossier
-   Utiliser cette commande pour se deplacer dans le dossier `ex00`
+3. Chercher sur internet une commande qui permet de changer de dossier
+   Utiliser cette commande pour se déplacer dans le dossier `ex00`
 4. Rentrer la commande `ls`, tu devrais voir le fichier que tu lis actuellement `subject.md` et le dossier `interfaceGraphiqueDossier`. Si c'est le cas tu es donc bien dans le dossier `ex00`
-5. Trouver des commandes pour creer un dossier nomme `interfaceTerminalDossier` et un fichier `interfaceTerminalFichier` dans le dossier `ex00` directement via la console
+5. Trouver des commandes pour créer un dossier nomme `interfaceTerminalDossier` et un fichier `interfaceTerminalFichier` dans le dossier que tu viens de créer directement via la console
 
 <details> 
   <summary>Indice Etape 2 </summary>
@@ -45,16 +45,18 @@ Il est normal que tu retrouves difficilement tes reperes d'utilisateur window, i
 
 <details> 
   <summary>Indice Etape 3 </summary>
-    La commande que tu cherches s'appelle <code>cd</code>
+    La commande que tu cherches s'appelle <code>cd</code><br/>
+    Attention <code>cd</code> sans preciser un nom de dossier te ramènera a la racine de ta session !<br/>
+    Exemple <code>cd nom_du_dossier</code>
 </details>
 
 <details> 
-  <summary>Indice Etape 6 </summary>
-    La commande <a href="http://manpagesfr.free.fr/man/man2/mkdir.2.html">mkdir</a><br/>
-    La commande <a href="https://www.delftstack.com/fr/howto/linux/how-to-create-a-file-in-linux-terminal/">touch</a>
+  <summary>Indice Etape 5 </summary>
+    La commande <a target="_blank" href="http://manpagesfr.free.fr/man/man2/mkdir.2.html">mkdir</a><br/>
+    La commande <a target="_blank" href="https://www.delftstack.com/fr/howto/linux/how-to-create-a-file-in-linux-terminal/">touch</a>
 </details>
 
 ### Conclusion
 
-Comme tu as pu le voir il existe plusieurs manieres pour un utilisateur de creer des fichiers et ou des dossiers<br/>
-En realite "sous" l'interface graphique des premieres etapes se deroule plus ou moins ce que tu as fais a la main dans les etapes de la console
+Comme tu as pu le voir il existe plusieurs manières pour un utilisateur de créer des fichiers et ou des dossiers<br/>
+En réalité "sous" l'interface graphique des premieres étapes se déroule plus ou moins ce que tu as fais a la main dans les étapes de la console
