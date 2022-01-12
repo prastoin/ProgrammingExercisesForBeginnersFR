@@ -38,6 +38,12 @@ Il est normal que tu retrouves difficilement tes repères d'utilisateur window, 
 5. Rentrer la commande `ls`, tu devrais voir le fichier que tu lis actuellement `subject.md` et le dossier `interfaceGraphiqueDossier`. Si c'est le cas tu es donc bien dans le dossier `ex00`
 6. Trouver des commandes pour créer un dossier nomme `interfaceTerminalDossier` et un fichier `interfaceTerminalFichier` dans le dossier que tu viens de créer directement via la console
 
+Bonus: Permissions
+
+1. Trouver un flag de `ls` qui permet d'afficher les permissions d'accès à un fichier
+2. Trouver une commande qui permet de changer les permissions d'un fichier
+3. Ajouter les droits `rwx` (read write execute) au fichier `interfaceTerminalFichier` pour le user propriétaire du fichier seulement
+
 <details> 
   <summary>Indice Interface graphique Etape 2 </summary>
    Le clique droit est ton ami
@@ -54,6 +60,11 @@ Il est normal que tu retrouves difficilement tes repères d'utilisateur window, 
   <summary>Indice Etape 5 </summary>
     La commande <a href="http://manpagesfr.free.fr/man/man2/mkdir.2.html" target="_blank">mkdir</a><br/>
     La commande <a href="https://www.delftstack.com/fr/howto/linux/how-to-create-a-file-in-linux-terminal/" target="_blank">touch</a>
+</details>
+
+<details> 
+  <summary>Bonus Indice Etape 2 </summary>
+    La commande <a href="http://manpagesfr.free.fr/man/man1/chmod.1.html" target="_blank">chmod</a><br/>
 </details>
 
 ### Conclusion
