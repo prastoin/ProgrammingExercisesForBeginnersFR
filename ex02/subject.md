@@ -21,12 +21,12 @@ Le programme utiliser la fonction <a target="_blank" href="https://www.tutorials
 
 1. Ouvrir une console dans visual studio code grâce au raccourci clavier `CTRL` et <code>\`</code> ou via l'onglet `Terminal` -> `ouvrir un nouveau terminal`.
 2. Utiliser la commande qui permet de changer de répertoire pour aller dans le dossier `ex02`
-3. Trouver un flag de `gcc` qui permet de compiler le fichier `main.c` dans un fichier avec un nom défini, par exemple `rtfm.out`
+3. Trouver un flag de `gcc` qui permet de compiler le fichier `main.c` dans un fichier avec un nom défini, par exemple `rtfm.out`<br/>
    `gcc --help` est ton ami
-4. Executer l'output une première fois sans operation ou commande supplémentaire, c'est à dire au premier plan
+4. Exécuter l'output une première fois sans operation ou commande supplémentaire, c'est à dire au premier plan<br/>
    Réussir à quitter le programme grâce à une saisie dans l'entrée standard ( voir `main.c` )
-5. Executer l'output généré en utilisant la commande <a target="_blank" href="https://www.educative.io/edpresso/what-is-nohup-in-linux">nohup</a> et l'opérateur de commande <a target="_blank" href="https://stackoverflow.com/questions/13338870/what-does-at-the-end-of-a-linux-command-mean">&</a>.
-   Liens utile <a target="_blank" href="https://stackoverflow.com/questions/15595374/whats-the-difference-between-nohup-and-ampersand">différence entre `nohup` et `&`</a>
+5. Exécuter l'output généré en utilisant la commande <a target="_blank" href="https://www.educative.io/edpresso/what-is-nohup-in-linux">nohup</a> et l'opérateur de commande <a target="_blank" href="https://stackoverflow.com/questions/13338870/what-does-at-the-end-of-a-linux-command-mean">&</a> <br/>
+   <a target="_blank" href="https://stackoverflow.com/questions/15595374/whats-the-difference-between-nohup-and-ampersand">différence entre `nohup` et `&`</a>
 6. Retrouver le programme en background en utilisant au moins une des commandes suivantes: `ps`, `top`, `jobs` et `htop`
 7. Utiliser la commande `kill` pour terminer le programme en attente
 8. De nouveau relancer le programme en utilisant la commande `nohup` et l'opérateur de commande `&`

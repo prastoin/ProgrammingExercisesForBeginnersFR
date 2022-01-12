@@ -4,6 +4,8 @@ Cette série de questions/exercices aborde plusieurs sujets clefs de la programm
 
 - La trinité ( HTML, CSS, Javascript)
 - Console navigateur
+- iframe
+- URL query
 
 <ins>Rappel:</ins> Chercher sur internet des réponses à ses questions n'est pas de la triche, au contraire c'est une solution comme une autre
 
@@ -38,6 +40,10 @@ Le javascript serait les muscles qui permettent au corps de bouger
    Tu viens de modifier du code `javascript`, un langage de programmation web
 8. Enfin tente de dupliquer le bouton, en copiant par exemple la balise `button` déjà présente sur la page
    Si tu vois deux boutons sur la page web alors bravo tu viens de modifier le squelette html.
+9. <a target="_blank" href="https://support.google.com/youtube/answer/171780?hl=fr">Intégrer</a> une vidéo youtube de ton choix sur la page web grâce à l'outil youtube `partager` -> `intégration`<br/>
+   Copier coller le texte dans la page web et sauvegarder le fichier, un <a target="_blank" href="https://developer.mozilla.org/fr/docs/Web/HTML/Element/iframe">iframe</a> youtube s'affiche sur ta page, tu peux lancer la vidéo<br/>
+10. Change l'ID de la vidéo rendu par l'iframe par l'ID suivant `dQw4w9WgXcQ`, regarde la propriété `src` de la balise `iframe`, la vidéo rendu par l'iframe a normalement changée
+11. Ajoute une `query` `start` à l'url contenu dans la props `src` de l'iframe. <a target="_blank" href="https://www.semrush.com/blog/url-parameters/">Qu'est ce qu'une query dans un url</a>
 
 Bonus:
 
@@ -62,7 +68,12 @@ Bonus:
 
 <details> 
   <summary>Indice Etape 8 </summary>
-   Tente de copier coller l'ensemble de la balise </code>button</code> déjà present dans le fichier <code>index.html</code>
+   Tente de copier coller l'ensemble de la balise </code>button</code> déjà présent dans le fichier <code>index.html</code>
+</details>
+
+<details> 
+  <summary>Indice Etape 11 </summary>
+   Tu peux toujours essayer de cocher la case <code>Démarrer à</code> lorsque tu partages via intégration une vidéo youtube. Tu verras apparaître une url avec la query que tu cherches.
 </details>
 
 <details> 
