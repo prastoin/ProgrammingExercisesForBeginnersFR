@@ -12,7 +12,7 @@ Cette série de questions/exercices aborde plusieurs sujets clefs de la programm
 Liste des fichiers présents:
 
 - `main.c` ( fichier contenant des lignes de code C, C étant un langage de programmation, d'où l'extension `.c` à la fin du nom du fichier )
-- `sujet.md`
+- `subject.md`
 
 Dans le fichier `main.c` se trouve un programme très connu appelle `Hello World !`</br>
 Ce type de programme a pour but d'afficher dans la console la phrase `Hello World !`
