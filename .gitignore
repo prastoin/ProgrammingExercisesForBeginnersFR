@@ -118,3 +118,6 @@ dist
 
 **/temp
 **/temp-*
+
+# exec
+*.out
