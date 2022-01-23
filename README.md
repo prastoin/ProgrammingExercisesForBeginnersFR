@@ -1,5 +1,7 @@
 # Petits exercices de découverte de la programmation
 
+### Introduction
+
 Tu trouveras dans ce projet plusieurs exercices.<br/>
 Chaque exercice a son propre dossier, dans chaque exercice se trouvera un fichier `subject.md`, le sujet dudit exercice.<br/>
 Dans chaque sujet tu trouveras une introduction résumant quels principes informatiques seront abordés par l'exercice,
@@ -11,6 +13,15 @@ Utilise les indices quand tu bloques vraiment.<br/>
 A la toute fin du sujet tu trouveras une conclusion.<br/>
 
 Pour chaque exercice il est fortement conseillé de se documenter, rechercher des informations sur internet.
+
+### Prérequis
+
+Il faudra que tu aies les programmes suivants d'installer sur ton ordinateur:
+
+- yarn
+- visual studio code
+- git
+- nohup
 
 ### Entre chaque exercice
 
